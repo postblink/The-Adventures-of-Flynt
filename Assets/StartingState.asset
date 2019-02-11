@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939dbd6edcfaf0648819c0a3416283f6, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "You are Flynt Thunderborn, a storm cleric dwarf from the peaks surrounding
+    the Crackling Bay. You wake up in the room of a tavern you recognize but cannot
+    name. A candle at your bedside fights to maintain it's flame as the wick drowns
+    in runny wax. \n\nYou go to sit up and notice your boots beside your bed. You're
+    still wearing everything else you had on the previous night. Putting your boots
+    on, you see a large oak door in front of you. To your left, you find a large chest
+    against the footboard. On your right, a large armoire against the wall, the right
+    door just slightly ajar.\n\nYou decide to...\n1. Check out the armoire...\n2.
+    Check out the large chest...\n"
+  nextStates:
+  - {fileID: 11400000, guid: afebf9dbc310a2b4680966ea9446bcde, type: 2}
+  - {fileID: 11400000, guid: a9c79a346cba33a4ab16e642fe0e4808, type: 2}
